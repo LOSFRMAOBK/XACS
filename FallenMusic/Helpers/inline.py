@@ -54,12 +54,12 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="• سوࢪس سبايدࢪ •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سوࢪس چافا •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• كروب الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/WWWL5"
+            text="• مبرمج السورس•", url="https://t.me/F_F_F_V"
         ),
         InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
     ],
@@ -74,12 +74,12 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="• سوࢪس سبايدࢪ •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سوࢪس چافا •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• كروب الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/WWWL5"
+            text="• مبرمج السورس •", url="https://t.me/F_F_F_V"
         ),
         InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
     ],
@@ -105,7 +105,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="• كروب الدعم •", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_help"),
         InlineKeyboardButton(text="• مسح •", callback_data="close"),
