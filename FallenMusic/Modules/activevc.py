@@ -30,7 +30,7 @@ from FallenMusic.Helpers.inline import close_key
 
 @app.on_message(filters.command("activevc") | filters.command(["المكالمات","النشطه"],prefixes= ["/", "!","","#"]) & SUDOERS)
 async def activevc(_, message: Message):
-    mystic = await message.reply_text("⎊ جاي اجي المكالمات 🌨️")
+    mystic = await message.reply_text("⎊ جاي اجيب المكالمات 🌨️")
     chats = await get_active_chats()
     text = ""
     j = 0
